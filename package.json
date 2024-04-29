@@ -1,0 +1,39 @@
+{
+  "name": "junngla-redpay-sdk-nestjs",
+  "version": "1.0.0",
+  "description": "Modulo NestJS con el SDK NodeJS para integración con el servicio de Token de pago interoperable de RedPay",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags",
+    "push": "npm version patch && git push",
+    "push-minor": "npm version minor && git push",
+    "push-major": "npm version major && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junngla-tech/junngla-redpay-sdk-nestjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/junngla-tech/junngla-redpay-sdk-nestjs/issues"
+  },
+  "homepage": "https://github.com/junngla-tech/junngla-redpay-sdk-nestjs#readme",
+  "keywords": [
+    "redpay",
+    "sdk",
+    "token de pago",
+    "interoperabilidad"
+  ],
+  "author": "Junngla SPA Chile @junngla-tech",
+  "license": "GNU",
+  "dependencies": {
+    "redpay-sdk-nodejs": "^1.0.3"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
