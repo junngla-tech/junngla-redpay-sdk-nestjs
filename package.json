@@ -33,11 +33,11 @@
   "dependencies": {
     "redpay-sdk-nodejs": "^1.0.3"
   },
-  "files": [
-    "dist/**/*"
-  ],
   "devDependencies": {
     "@nestjs/common": "^10.3.8",
     "@types/node": "^20.12.7"
-  }
+  },
+  "files": [
+    "dist/**/*"
+  ]
 }
