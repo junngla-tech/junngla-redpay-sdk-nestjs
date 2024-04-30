@@ -4,7 +4,7 @@ import { validateSignature as _validateSignature } from 'redpay-sdk-nodejs';
 import { getSignedObject as _getSignedObject } from 'redpay-sdk-nodejs';
 
 @Injectable()
-export class RedpaySignatureService {
+export class SignatureService {
 
   constructor() {}
 
