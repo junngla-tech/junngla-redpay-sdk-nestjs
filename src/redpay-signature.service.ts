@@ -1,11 +1,10 @@
-import { Injectable, Logger } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { generateSignature as _generateSignature, SignedObject } from 'redpay-sdk-nodejs';
 import { validateSignature as _validateSignature } from 'redpay-sdk-nodejs';
 import { getSignedObject as _getSignedObject } from 'redpay-sdk-nodejs';
 
 @Injectable()
 export class RedpaySignatureService {
-  private readonly logger = new Logger(RedpaySignatureService.name)
 
   constructor() {}
 

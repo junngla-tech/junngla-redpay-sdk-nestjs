@@ -35,5 +35,9 @@
   },
   "files": [
     "dist/**/*"
-  ]
+  ],
+  "devDependencies": {
+    "@nestjs/common": "^10.3.8",
+    "@types/node": "^20.12.7"
+  }
 }
