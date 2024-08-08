@@ -31,7 +31,7 @@
   "author": "Junngla SPA Chile @junngla-tech",
   "license": "GNU",
   "dependencies": {
-    "redpay-sdk-nodejs": "^1.0.3"
+    "redpay-sdk-nodejs": "^1.1.0"
   },
   "devDependencies": {
     "@nestjs/common": "^10.3.8",
