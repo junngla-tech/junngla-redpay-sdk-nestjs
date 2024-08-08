@@ -1,6 +1,6 @@
 {
   "name": "junngla-redpay-sdk-nestjs",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Modulo NestJS con el SDK NodeJS para integración con el servicio de Token de pago interoperable de RedPay",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
